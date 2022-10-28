@@ -1,0 +1,245 @@
+/* primary color   = #F500F5
+   secondary color = #D700D7
+   
+   large font  = 20px
+   medium font = 20px
+   small font  = 12px
+   
+   large heading  = 50px
+   medium heading = 40px
+   small heading  = 30px
+
+   font family (heading) = times new roman, times, serif
+   font family (text)    = verdan , tahoma , san serif
+   */
+
+   #container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+}
+header img{
+    width: 140px;
+    height: 140px;
+    float: left;
+}
+header h1{
+    color: #db00db;
+    font-weight: bold;
+    font-size: 50px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+header h3{
+    color: #F500F5;
+    font-size: 25px;
+    font-weight: bold;
+    clear: both;
+    float: left;
+    padding-left: 150px;
+    top: -70px; 
+    position: relative;
+}
+header div#search{
+    float: right;
+    top: -50px;
+    margin-right: 10px;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    /* padding-top: 10px; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px;
+    color: #db00db;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 100px;
+    height: 20px;
+    width: 100px;
+}
+nav ul li a:hover {
+    background-color: #db00db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+aside{
+    width: 25%;
+    float: left;
+    height: 250px;
+}
+aside ul{
+    list-style: none;
+}
+aside ul li{
+    display: block;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.categories-title{
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #db00db;
+    display: inline;
+    letter-spacing: 2px;
+}
+aside ul li a{
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #F500F5;
+    border-radius: 5px;
+}
+aside ul li a:hover{
+    color: #222122;
+}
+#banner{
+    margin-top: 25px;
+    width: 72%;
+    height: 200px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 8px;
+    background-color: #db00db;
+    color: white;
+}
+.lead{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 16px;
+    letter-spacing: 2px;
+}
+.note{
+    color: white;
+    font-size: 20px;
+    padding-bottom:40px ;
+    
+}
+.find-more-btn{
+    margin-left: 23%;
+    cursor: pointer;
+}
+.find-more-btn:hover{
+    font-weight: bold;
+    background-color: #f500f5;
+    color: white;
+}
+#cards{
+    margin-top: 10px;
+    width: 1000px;
+    height: 650px;
+    float: left;
+}
+.card{
+    margin-top: 15px;
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+.card-body h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.price{
+    font-weight: bold;
+    font-size: larger;
+    color: #db00db;
+}
+.discount{
+    font-weight: bold;
+    color: #db00db;
+    font-size: x-large;
+}
+.crossed{
+    color: black ;
+}
+#pagination{
+    clear: both;
+    margin-left: 40%;
+    margin-bottom: 23px;
+}
+#pagination ul{
+    list-style-type: none;
+}
+#pagination ul li{
+    display: inline-block;
+}
+#pagination ul li a{
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 10px;
+}
+
+
+/* #footer ul li a{
+    color: white;
+   padding-top: 5px;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom:  20px;
+    width: 100%;
+    text-align: center;
+} */
+
+#footer p{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#footer ul li {
+
+    display: inline-block;
+    
+    
+    
+}
+
+#footer ul{
+    list-style: none;
+    margin-left: 450px;
+    /* margin: 34px; */
+    margin-bottom: 10px;
+    
+}
+
+#footer ul li a{
+
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
